@@ -8,3 +8,4 @@
 
 ### Ответ
 
+find . -type d | wc -l

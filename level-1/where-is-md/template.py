@@ -1,5 +1,5 @@
-::python3.10
-::header
+# ::python3.10
+# ::header
 from cmath import exp
 import os
 
@@ -65,7 +65,7 @@ Downloads/:
 SCRIPT_BODY = """
 ::code
 # write your code here
-
+find . -type f -name "*.md"
 ::footer
 """
 

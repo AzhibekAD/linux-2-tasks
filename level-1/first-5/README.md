@@ -24,4 +24,4 @@
 
 ### Ответ
 
-
+head -n 5 ./access.log

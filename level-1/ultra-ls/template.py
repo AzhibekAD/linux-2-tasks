@@ -1,5 +1,5 @@
-::python3.10
-::header
+# ::python3.10
+# ::header
 import os
 
 def execute(cmd):
@@ -62,7 +62,7 @@ Downloads/:
 SCRIPT_BODY = """
 ::code
 # write your code here
-
+ls -A -F -t
 ::footer
 """
 

@@ -23,3 +23,4 @@
 
 ### Ответ
 
+find . name "j*" -or -name "*n" -or -name "n*j]"

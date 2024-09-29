@@ -1,5 +1,5 @@
-::python3.10
-::header
+# ::python3.10
+# ::header
 import os
 
 def execute(cmd):
@@ -36,7 +36,7 @@ def init():
 SCRIPT_BODY = """
 ::code
 # write your code here
-
+tail -n 5 ./access.log
 ::footer
 """
 

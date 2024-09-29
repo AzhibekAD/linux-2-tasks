@@ -33,3 +33,4 @@
 
 ### Ответ
 
+grep 'jusan.kz' ./access.log 

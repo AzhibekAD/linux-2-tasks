@@ -21,4 +21,7 @@ jchris song.mp3
 
 ### Ответ
 
+ls -lA | grep -v '/' | awk '{print $3, $9}'
+
+
 ``

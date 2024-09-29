@@ -24,3 +24,5 @@
 ---
 
 ### Ответ
+
+awk '{gsub(/jusan.kz/,"example.com")}' ./access.log > ./access.log

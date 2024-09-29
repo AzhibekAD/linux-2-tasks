@@ -32,3 +32,5 @@
 ---
 
 ### Ответ
+
+grep 'jusan.kz' ./access.log | wc -l

@@ -1,5 +1,5 @@
-::python3.10
-::header
+# ::python3.10
+# ::header
 from cmath import exp
 import os
 
@@ -63,11 +63,11 @@ Downloads/:
 SCRIPT_BODY = """
 ::code
 # write your code here
-
+find . name "j*" -or -name "*n" -or -name "n*j]"
 ::footer
 """
 
-SOLUTION_CMD = 'find . \( -name "j*" -o -name "*n" -o -name "n*j]"  \)'
+SOLUTION_CMD = 'find . ( -name "j*" -or -name "*n" -or -name "n*j" )'
 
 
 def test_output():

@@ -1,5 +1,5 @@
-::python3.10
-::header
+# ::python3.10
+# ::header
 import os
 
 def execute(cmd):
@@ -37,11 +37,11 @@ def init():
 SCRIPT_BODY = """
 ::code
 # write your code here
-
+grep 'jusan.kz' ./access.log | wc -l
 ::footer
 """
 
-SOLUTION_CMD = 'cat ./access.log | grep "jusan\.kz" | wc -l'
+SOLUTION_CMD = 'cat ./access.log | grep "jusan.kz" | wc -l'
 
 
 def test_output():

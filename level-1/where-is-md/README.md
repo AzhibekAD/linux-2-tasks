@@ -10,3 +10,4 @@
 
 ### Ответ
 
+find . -type f -name "*.md"

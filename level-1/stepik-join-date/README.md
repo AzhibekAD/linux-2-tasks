@@ -32,4 +32,4 @@ curl -s https://stepik.org:443/api/users/1
 ---
 
 ### Ответ
-
+printf "curl -s https://stepik.org:443/api/users/468022818 | jq '.users[].join_date'" > /home/box/stepik.sh && chmod 755 /home/box/stepik.sh

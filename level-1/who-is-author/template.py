@@ -1,5 +1,5 @@
-::python3.10
-::header
+# ::python3.10
+# ::header
 import os
 
 def execute(cmd):
@@ -63,7 +63,7 @@ Downloads/:
 SCRIPT_BODY = """
 ::code
 # write your code here
-
+ls -lA | grep -v '/' | awk '{print $3, $9}'
 ::footer
 """
 

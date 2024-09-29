@@ -24,3 +24,4 @@
 
 ### Ответ
 
+tail -n 5 ./access.log

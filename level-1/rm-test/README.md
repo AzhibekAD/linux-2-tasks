@@ -12,3 +12,4 @@
 
 ### Ответ
 
+rm /home/box/project/*_test.py

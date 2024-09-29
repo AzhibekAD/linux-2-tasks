@@ -14,3 +14,4 @@
 
 ### Ответ
 
+touch /home/box/sandbox/$(cat /home/box/secret/dont-open.txt)

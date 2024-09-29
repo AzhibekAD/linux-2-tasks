@@ -16,3 +16,4 @@ box@dec74273716e: ~ $ cat jusan | wc -l
 
 ### Ответ
 
+mkdir -p /home/box/sandbox && printf 'singularity' > /home/box/sandbox/jusan

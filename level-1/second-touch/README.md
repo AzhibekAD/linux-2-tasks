@@ -23,4 +23,4 @@ $ ls -l
 
 ### Ответ
 
-
+echo "touch" > /home/box/second && chmod 632 /home/box/second

@@ -20,3 +20,5 @@ singularity
 ---
 
 ### Ответ
+
+echo "singularity" > /home/box/jusan
