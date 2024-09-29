@@ -16,3 +16,4 @@
 
 ### Ответ
 
+sudo apt purge nginx

@@ -32,3 +32,6 @@ Connection to 185.22.64.126 port 1234 succeeded!
 
 ### Ответ
 
+nc -vz jusan.kz 80
+
+Connection to jusan.kz port 80 [tcp/http] succeeded!

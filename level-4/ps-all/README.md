@@ -27,3 +27,4 @@ Linux - многозадачная операционная система. Мн
 
 ### Ответ
 
+echo 'ps aux' > /home/box/ps-all.sh && chmod -x /home/box/ps-all.sh

@@ -14,3 +14,5 @@
 ---
 
 ### Ответ
+
+echo 'ps -eo pid,user,usergroup,vsize,%cpu,cmd' > /home/box/ps-column.sh && chmod -x /home/box/ps-column.sh

@@ -8,3 +8,7 @@
 ---
 
 ### Ответ
+
+echo 'ps aux --sort=-%cpu' > /home/box/ps-sort.sh && chmod -x /home/box/ps-sort.sh
+
+echo 'ps aux | sort -nrk 3,3' > /home/box/ps-sort.sh && chmod -x /home/box/ps-sort.sh

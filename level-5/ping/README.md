@@ -27,3 +27,12 @@ round-trip min/avg/max/stddev = 80.757/115.434/171.253/33.587 ms
 
 ### Ответ
 
+#!/bin/bash
+
+if ping -c 1 jusan.kz &> /dev/null; then
+    echo "Да"
+else
+    echo "Нет"
+fi
+
+
